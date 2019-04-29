@@ -1,23 +1,29 @@
 {
   "name": "nextjs-tutorial",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "license": "MIT",
-  "author": "Alok Singh",
   "scripts": {
-    "dev": "next",
-    "start": "next start",
-    "build": "next build"
+    "dev": "node api/server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node api/server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alokKumarSingh89/nextjs-setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alokKumarSingh89/nextjs-setup/issues"
+  },
+  "homepage": "https://github.com/alokKumarSingh89/nextjs-setup#readme",
   "dependencies": {
-    "aws-sdk": "^2.363.0",
-    "child_process": "^1.0.2",
-    "dotenv": "^6.1.0",
     "express": "^4.16.4",
-    "material-ui": "^0.20.2",
-    "next": "^7.0.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "webpack": "^4.26.1"
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
